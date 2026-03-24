@@ -1,5 +1,5 @@
 import React from 'react'
-import { LetterItem } from '@/app/page'
+import { LetterItem } from '@/types/canvas'
 import { DraggableItem } from '@/components/draggable-item'
 import { PhotoItem } from '@/components/photo-item'
 import { LetterNote } from '@/components/letter-note'
@@ -43,6 +43,7 @@ export const LetterCanvas: React.FC<LetterCanvasProps> = ({
       case 'spotify':
         return <SpotifyPlayer spotifyUrl={item.content as string} />
       case 'doodle':
+        // eslint-disable-next-line @next/next/no-img-element
         return <img src={item.content as string} alt="Doodle" className="w-48 h-48 object-contain" />
       default:
         return null

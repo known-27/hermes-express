@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { LetterItem } from '@/app/page'
+import { LetterItem } from '@/types/canvas'
 import { PhotoItem } from '@/components/photo-item'
 import { LetterNote } from '@/components/letter-note'
 import { VoiceNote } from '@/components/voice-note'
