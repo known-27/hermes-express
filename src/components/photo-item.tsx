@@ -22,7 +22,7 @@ export const PhotoItem: React.FC<PhotoItemProps> = ({ url, caption, onCaptionCha
           value={caption}
           onChange={(e) => onCaptionChange(e.target.value)}
           placeholder="Add a caption..."
-          className="w-full text-sm text-center"
+          className="w-full text-sm text-center text-black"
           onMouseDown={(e) => e.stopPropagation()}
         />
       </div>

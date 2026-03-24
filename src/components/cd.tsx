@@ -45,7 +45,7 @@ export const CD: React.FC<CDProps> = ({ onAddSpotify }) => {
               placeholder="Spotify embed URL..."
               value={spotifyUrl}
               onChange={(e) => setSpotifyUrl(e.target.value)}
-              className="bg-stone-100 flex-1"
+              className="bg-stone-100 flex-1 text-black"
             />
             <Button type="submit">Add</Button>
           </form>

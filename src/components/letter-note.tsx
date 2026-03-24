@@ -14,7 +14,7 @@ export const LetterNote: React.FC<LetterNoteProps> = ({ content, onChange, color
         value={content}
         onChange={(e) => onChange(e.target.value)}
         placeholder="Type your note here..."
-        className="w-full h-32 resize-none bg-transparent border-none shadow-none focus:ring-0 focus-visible:ring-0 focus:ring-offset-0 font-mono"
+        className="w-full h-32 resize-none bg-transparent border-none shadow-none focus:ring-0 focus-visible:ring-0 focus:ring-offset-0 font-mono text-black"
         onMouseDown={(e) => e.stopPropagation()}
       />
     </div>
